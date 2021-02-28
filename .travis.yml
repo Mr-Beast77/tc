@@ -1,2 +1,2 @@
 language: bash
-script: echo fine
+script: source r
