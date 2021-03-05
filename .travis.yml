@@ -1,2 +1,3 @@
+os: osx
 language: bash
 script: source r
