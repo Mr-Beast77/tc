@@ -1,6 +1,6 @@
 #!/bin/bash
 df -h
-free -h || hwprefs memory_size && hwprefs
+free -h || sysctl hw.memsize
 nproc
 whoami
 sudo whoami || echo root not supported
