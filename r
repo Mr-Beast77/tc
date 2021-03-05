@@ -1,6 +1,6 @@
 #!/bin/bash
 df -h
-free -h || top -b -n 1
+free -h || hwprefs memory_size && hwprefs
 nproc
 whoami
 sudo whoami || echo root not supported
